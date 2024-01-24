@@ -194,10 +194,11 @@ body {
   transform: scale(1.05);
 }
 .block-text {
+  text-decoration: none;
   width: 66px;
   height: 35px;
   padding-top: 10px;
-  padding-left: 47px;
+  padding-left: 0px;
   margin: 0;
   font-family: "Open Sans Condensed";
   font-size: 18px;
