@@ -53,6 +53,7 @@ body {
   transform: scaleX(1);
 }
 .tel {
+  text-decoration: none;
   width: 120px;
   height: 22px;
   /* padding-top: 50px;
@@ -62,13 +63,34 @@ body {
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.05em;
-  text-align: right;
+  text-align: center;
   color: rgb(255, 255, 255);
   border-bottom: 2px solid rgba(209, 169, 84, 1);
   position: relative;
   z-index: 1;
 }
 .tel:hover {
+  color: rgb(175, 175, 175);
+  font-weight: bold;
+  cursor: pointer;
+}
+.tel1 {
+  text-decoration: none;
+  width: 120px;
+  height: 22px;
+  /* padding-top: 50px;
+    padding-left: 1396px; */
+  font-family: "Open Sans Condensed";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  /* text-align: center; */
+  color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 1;
+}
+.tel1:hover {
   color: rgb(175, 175, 175);
   font-weight: bold;
   cursor: pointer;

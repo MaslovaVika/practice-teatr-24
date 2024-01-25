@@ -163,106 +163,163 @@ body {
 .foto4:hover {
   transform: scale(1.05);
 }
-.cart {
+.vhod {
+  padding-top: 200px;
+  padding-left: 350px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-.text-dig {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 400px;
+  grid-template-rows: 100px 550px 100px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 .text {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   font-family: "Open Sans Condensed";
   font-size: 48px;
   font-weight: 300;
   line-height: 65px;
   letter-spacing: 0.1em;
-  /* text-align: center; */
+  text-align: center;
   color: rgba(209, 169, 84, 1);
-}
-.card {
-  width: 250px;
-  height: 480px;
-  border-radius: 9px;
-  display: grid;
-  grid-template-rows: auto 1fr;
-  gap: 0px;
-  border: 1px solid rgb(141, 139, 139);
-  background-color: rgba(51, 51, 51, 0.75);
-}
-.card:hover {
-  border: 1px solid rgba(209, 169, 84, 1);
-}
-.card__top {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0px;
-}
-
-.card__image {
-  border-radius: 9px;
-  width: 250px;
-}
-.card__bottom {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  gap: 10px;
-  margin-left: 15px;
-}
-.card__title {
-  font-family: "Open Sans Condensed";
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 29px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  color: rgba(255, 255, 255, 1);
   margin: 0;
 }
-.card__title1 {
+.registr {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 30px;
+  width: 730px;
+  height: 190px;
+  /* padding-top: 4089px; */
+  /* padding-left: 785px; */
+  border: 1px;
+}
+.name {
+  width: 400px;
+  height: 60px;
+  /* padding-top: 4089px;
+      padding-left: 785px; */
+  padding: 0;
+  background: rgba(68, 68, 68, 1);
+  color: rgba(97, 97, 97, 1);
+  border: 1px solid rgba(97, 97, 97, 1);
   font-family: "Open Sans";
   font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
-  /* letter-spacing: 0.1em; */
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
   text-align: left;
-  color: rgba(255, 255, 255, 1);
-  margin: 0;
 }
-
-.card__add {
-  width: 220px;
-  height: 35px;
-  background: rgba(209, 169, 84, 1);
-  border: 0px;
+.email {
+  width: 400px;
+  height: 60px;
+  /* padding-top: 4154px;
+      padding-left: 995px; */
   padding: 0;
+  background: rgba(68, 68, 68, 1);
+  color: rgba(97, 97, 97, 1);
+  border: 1px solid rgba(97, 97, 97, 1);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.data {
+  width: 400px;
+  height: 60px;
+  /* padding-top: 4154px;
+        padding-left: 995px; */
+  padding: 0;
+  background: rgba(68, 68, 68, 1);
+  color: rgba(97, 97, 97, 1);
+  border: 1px solid rgba(97, 97, 97, 1);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.companu {
+  width: 400px;
+  height: 60px;
+  /* padding-top: 4089px;
+      padding-left: 995px; */
+  padding: 0;
+  background: rgba(68, 68, 68, 1);
+  color: rgba(97, 97, 97, 1);
+  border: 1px solid rgba(97, 97, 97, 1);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.companu2 {
+  width: 400px;
+  height: 60px;
+  /* padding-top: 4089px;
+        padding-left: 995px; */
+  padding: 0;
+  background: rgba(68, 68, 68, 1);
+  color: rgba(97, 97, 97, 1);
+  border: 1px solid rgba(97, 97, 97, 1);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btn {
+  width: 400px;
+  height: 60px;
+  /* padding-top: 4229px;
+      padding-left: 1325px; */
+  padding: 0;
+  border: 0;
+  background: rgba(209, 169, 84, 1);
   font-family: "Open Sans Condensed";
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 0.1em;
   text-align: center;
   color: rgba(255, 255, 255, 1);
+}
+.btn:hover {
+  transform: scale(1.05);
   cursor: pointer;
 }
-.card__add:hover {
-  transform: scale(1.05);
-}
-.title2 {
-  width: 1420px;
+.text1 {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0em;
+  line-height: 21px;
+  /* letter-spacing: 0.1em; */
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+}
+.text2 {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  /* letter-spacing: 0.1em; */
   text-align: left;
   color: rgba(152, 152, 152, 1);
+  margin: 0;
+}
+.text2:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
 }
 @media (max-width: 567px) {
   body {
@@ -271,7 +328,7 @@ body {
     margin: 0;
     /* background-color: #333333; */
     /* top: -1044px;
-        left: -1859px; */
+          left: -1859px; */
   }
   .header {
     display: none;
@@ -288,62 +345,8 @@ body {
     /* height: 100%; */
     margin-top: 0px;
   }
-  .text {
-    margin: 0;
-  }
-  .text-dig {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 160px 668px 218px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    padding-left: 15px;
-  }
-  .cart {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 8px;
-  }
-  .card {
-    width: 150px;
-    height: 330px;
-    border-radius: 9px;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 0px;
-    border: 1px solid rgb(141, 139, 139);
-    background-color: rgba(51, 51, 51, 0.75);
-  }
-  .card:hover {
-    border: 1px solid rgba(209, 169, 84, 1);
-  }
-  .card__image {
-    border-radius: 9px;
-    width: 150px;
-  }
-  .card__title {
-    font-size: 14px;
-  }
-  .card__title1 {
-    font-size: 12px;
-  }
-  .card__add {
-    width: 120px;
-    height: 25px;
-    font-size: 16px;
-  }
-  .card__add:hover {
-    transform: scale(1.05);
-  }
-  .title2 {
-    width: 410px;
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(152, 152, 152, 1);
+  .vhod {
+    padding-top: 200px;
+    padding-left: 10px;
   }
 }
